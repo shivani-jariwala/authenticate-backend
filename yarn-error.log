@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/shivani/.nvm/versions/node/v18.16.0/bin/node /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add bluebird body-parser bunyan dotenv express http-status-codes jsonwebtoken mysql2 nconf nodemon
+
+PATH: 
+  /Users/shivani/.nvm/versions/node/v18.16.0/bin:/Users/shivani/.nvm/versions/node/v12.22.10/bin:/opt/homebrew/opt/node@12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/shivani/.nvm/versions/node/v12.22.10/bin:/opt/homebrew/opt/node@12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  18.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/shivani/Documents/authenticate-backend/package.json: Unexpected token } in JSON at position 209
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "authenticate-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon app.js"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
